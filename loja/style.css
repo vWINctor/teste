@@ -1,0 +1,65 @@
+body{
+    background-color: #f0f9b789;
+}
+header{
+    text-align: center;
+}
+.header{
+    font-size: 50px;
+}
+table{
+    border: 3px solid #000000;
+    border-collapse: collapse;
+    width: 100%;
+}
+thead tr,th{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #000000;
+    border: 3px solid #060000;
+}
+#produtos{
+    background-color: #013f04;
+}
+#lista{
+    background-color: #409932c3;
+}
+tbody td{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px solid #000000;
+    background-color: #72f464b3;
+}
+tbody tr:nth-child(even) td{
+    background-color: #a1f6a5;
+}
+tbody td:nth-child(4){
+    text-align: center;
+}
+#tomate{
+    width: 75px;
+}
+#alface{
+    width: 75px;
+}
+#cebola{
+    width: 75px;
+}
+#pepino{
+    width: 75px;
+}
+#pimenta {
+    width: 75px;
+}
+#botao{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 75px;
+    font-size: 40px;
+    border:3px solid #0e7b1e;
+    color: #000000;
+    background-color: #0e7b1e;
+}
+tfoot{
+    border: 3px solid #000000;
+    background-color: #0e7b1e;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="header">Controle de estoque do sacolão do bola</h1>
+        <h2>Controle de estoque e produtos se as metas foram batidas</h2>
+        <hr>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th id="produtos" colspan="6">Produtos</th>
+                </tr>
+                <tr id="lista">
+                    <th>Código</th>
+                    <th>Nome</th>
+                    <th>Quantidade</th>
+                    <th>Imagem</th>
+                    <th>Caracteristica</th>
+                    <th>Checagem</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>001</td>
+                    <td>Tomate</td>
+                    <td>120 kg</td>
+                    <td><img id="tomate" src="imagens/tomate.jpg" alt="Tomate"></td>
+                    <td>Fresco / na validade</td>
+                    <td>
+                        <label for="checagem1">Checado</label>
+                        <input type="checkbox" id="checagem1" data-nome="Tomate">
+                    </td>
+                </tr>
+                <tr>
+                    <td>002</td>
+                    <td>Alface</td>
+                    <td>130 kg</td>
+                    <td><img id="alface" src="imagens/alface.jpg" alt="Alface"></td>
+                    <td>Fresco / na validade</td>
+                    <td>
+                        <label for="checagem2">Checado</label>
+                        <input type="checkbox" id="checagem2" data-nome="Alface">
+                    </td>
+                </tr>
+                <tr>
+                    <td>003</td>
+                    <td>Cebola</td>
+                    <td>150 kg</td>
+                    <td><img id="cebola" src="imagens/cebola.jpg" alt="Cebola"></td>
+                    <td>Fresco / na validade</td>
+                    <td>
+                        <label for="checagem3">Checado</label>
+                        <input type="checkbox" id="checagem3" data-nome="Cebola">
+                    </td>
+                </tr>
+                <tr>
+                    <td>004</td>
+                    <td>Pepino</td>
+                    <td>200 kg</td>
+                    <td><img id="pepino" src="imagens/pepino.jpg" alt="Pepino"></td>
+                    <td>Fresco / na validade</td>
+                    <td>
+                        <label for="checagem4">Checado</label>
+                        <input type="checkbox" id="checagem4" data-nome="Pepino">
+                    </td>
+                </tr>
+                <tr>
+                    <td>005</td>
+                    <td>Pimenta</td>
+                    <td>140 kg</td>
+                    <td><img id="pimenta" src="imagens/pimenta.jpg" alt="Pimenta"></td>
+                    <td>Fresco / na validade</td>
+                    <td>
+                        <label for="checagem5">Checado</label>
+                        <input type="checkbox" id="checagem5" data-nome="Pimenta">
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="6"><button id="botao" type="button">Enviar dados do estoque</button></td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+    <footer></footer>
+    <script src="script.js"></script>
+</body>
+</html>
